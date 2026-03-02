@@ -1,0 +1,78 @@
+# ================================
+# GENERAL
+# ================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ================================
+# IDE
+# ================================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# ================================
+# FLUTTER / DART
+# ================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ================================
+# ANDROID
+# ================================
+android/.gradle/
+.gradle/
+**/.gradle/
+android/local.properties
+android/app/debug
+android/app/profile
+android/app/release
+
+# Keystore / signing
+*.keystore
+*.jks
+key.properties
+
+# Firebase config (do NOT commit if public)
+android/app/google-services.json
+
+# ================================
+# IOS
+# ================================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+
+# ================================
+# ENV / SECRETS
+# ================================
+.env
+.env.*
+*.pem
+*.p12
+
+# ================================
+# SYMBOLS / OBFUSCATION
+# ================================
+app.*.symbols
+app.*.map.json
