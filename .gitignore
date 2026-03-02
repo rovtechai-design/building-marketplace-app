@@ -76,3 +76,5 @@ ios/Runner/GeneratedPluginRegistrant.*
 # ================================
 app.*.symbols
 app.*.map.json
+# Firebase
+ios/Runner/GoogleService-Info.plist
